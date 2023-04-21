@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.8.0"
+  },
+  "devDependencies": {
+    "openai": "^3.2.1"
   }
 }
