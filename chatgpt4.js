@@ -1,7 +1,3 @@
-// Load required modules
-// const { Client, Collection, Events, GatewayIntentBits } = require('discord.js')
-// const { Configuration, OpenAIApi } = require("openai");
-
 import { Client, Collection, Events, GatewayIntentBits } from "discord.js"
 import { Configuration, OpenAIApi } from "openai"
 import secrets from "./secrets.json" assert { type: "json" };
