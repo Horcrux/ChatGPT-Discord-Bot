@@ -11,7 +11,7 @@ const token = secrets.discord_token; //discord
 const configuration = new Configuration({
 	apiKey: secrets.openai_key, //openai
 });
-let temperature = 0.8;
+let temperature = 0.7;
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMembers] });
 const openai = new OpenAIApi(configuration);
 
